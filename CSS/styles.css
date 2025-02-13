@@ -1,0 +1,158 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+
+.nav1 {
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+}
+
+.nav1 nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0;
+    margin: 0;
+    list-style: none;
+}
+
+.nav1 nav ul li {
+    list-style: none;
+}
+
+.nav1 nav ul a {
+    color: #000;
+    font-style: italic;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav1 nav ul a:hover {
+    text-decoration: none;
+}
+
+
+.nav2 {
+    background-color: #003366;
+}
+
+.nav2 nav ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    margin: 0;
+    list-style: none;
+}
+
+.nav2 nav ul li {
+    list-style: none;
+}
+
+.nav2 nav ul a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.nav2 nav ul a:hover {
+    text-decoration: underline;
+}
+
+
+h1 {
+    text-align: center;
+
+    margin: 20px 0;
+}
+
+.search-bar {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #003366;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 50px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(248, 0, 0, 0.1);
+}
+
+.card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+.social-icons img{
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    margin: 10px 0;
+}
+
+.card p {
+    color: #666;
+    font-size: 14px;
+}
+
+.card button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: #b30054;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 5px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    text-decoration: underline;
+}
